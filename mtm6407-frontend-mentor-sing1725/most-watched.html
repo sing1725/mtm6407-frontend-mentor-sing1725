@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>CSS Grid- BBC News</title>
+  </head>
+  <body>
+    <div class="container">
+    <header>
+        <div class="header-top"></div>
+        <div class="header-bottom">
+          <div class="header-title">
+            <h1>THE CANADA DAILY</h1>
+          </div>
+          <div class="hamburger-box show-mobile show-tablet hide-desktop">
+            <img src="images/hamburger.gif" onclick="opentopnav()" alt="" />
+          </div>
+        </div>
+        <div class="header-tab">
+          <div class="tabs">
+            <a href="index.html">Home</a href="#">
+            <a href="latest.html">Latest Stories</a href="#">
+            <a href="most-watched.html">Most read</a href="#">
+            <a href="hottest.html" class="hide-mobile hide-tablet show-desktop">Top stories</a href="#">
+            <a href="hottest.html" class="hide-mobile hide-tablet show-desktop">Hottest topics</a href="#">
+            <a href="index.html">World News</a href="#">
+
+
+          </div>
+        </div>
+      </header>
+
+      <section class="must-see">
+        <h1 class="heading">Most watched</h1>
+        <div class="main"></div>
+        <div class="content">
+          <article class="news-item">
+            <div class="img-box">
+              <img src="images/m1.jpg" alt="" />
+            </div>
+            <div class="about-article">
+              <h2 class="article-title">
+                what the heroin industry can teach us about solar power
+              </h2>
+              <div class="other-info"></div>
+            </div>
+          </article>
+          <article class="news-item">
+            <div class="img-box">
+              <img src="images/m2.jpg" alt="" />
+            </div>
+            <div class="about-article">
+              <h2 class="article-title">
+                I am free coming out at 90 and living the life
+              </h2>
+              <div class="other-info"></div>
+            </div>
+          </article>
+          <article class="news-item">
+            <div class="img-box">
+              <img src="images/m3.jpg" alt="" />
+            </div>
+            <div class="about-article">
+              <h2 class="article-title">
+                I here today because other man died to help me
+              </h2>
+              <div class="other-info"></div>
+            </div>
+          </article>
+          <article class="news-item">
+            <div class="img-box">
+              <img src="images/m4.jpg" alt="" />
+            </div>
+            <div class="about-article">
+              <h2 class="article-title">
+                Spain races to save tourism as cases surge
+              </h2>
+              <div class="other-info"></div>
+            </div>
+          </article>
+          <article class="news-item">
+            <div class="img-box">
+              <img src="images/m5.jpg" alt="" />
+            </div>
+            <div class="about-article">
+              <h2 class="article-title">
+                Alarm of Vietnam's first case in months
+              </h2>
+              <div class="other-info"></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <div class="subscribe">
+        <h1 class="heading">Subscribe</h1>
+        <div class="content">
+          <div class="form-group">
+            <label for="" aria-label="email">Email</label>
+            <input type="text" class="email" placeholder="EMAIL" />
+          </div>
+          <div class="form-group">
+            <label for="" aria-label="name">Name</label>
+            <input type="text" class="name" placeholder="NAME" />
+          </div>
+          <div class="form-group-check">
+            <input type="checkbox" class="checkbox" />
+            <label for="" aria-label="terms and conditions"
+              >By checking this box you accept our terms and conditions</label
+            >
+          </div>
+          <button class="submit">Subscribe</button>
+        </div>
+      </div>
+      <section class="find-us">
+        <div class="heading">You can find us on</div>
+        <div class="logos">
+          <img src="images/facebook.svg" alt="" />
+          <img src="images/instagram.svg" alt="" />
+          <img src="images/twitter.svg" alt="" />
+        </div>
+      </section>
+
+      <footer>
+        <div class="copyright">
+          &COPY; THE CANADA DAILY News2024 Registered Company
+        </div>
+        <div class="links">
+          <a href="#" class="link">Home</a>
+          <a href="#" class="link">Contact US</a>
+          <a href="#" class="link">Legal</a>
+          <a href="#" class="link">Most viewed News </a>
+          <a href="#" class="link">Latest news</a>
+        </div>
+      </footer>
+    </div>
+
+    <div id="opentopmenu">
+      <div class="closetopnav">
+        <img src="images/exit.svg" onclick="closetopnav()" alt="" />
+      </div>
+      <h1 class="heading">
+        THE CANADA DAILY
+      </h1>
+      <div class="navLinks">
+        <a href="#" class="navlink">Home</a>
+        <a href="#" class="navlink">Most viewed</a>
+        <a href="#" class="navlink">Latest</a>
+        <a href="#" class="navlink">Must watch</a>
+        <a href="#" class="navlink">Must Read</a>
+        <a href="#" class="navlink">Around the world</a>
+      </div>
+    </div>
+  </body>
+</html>

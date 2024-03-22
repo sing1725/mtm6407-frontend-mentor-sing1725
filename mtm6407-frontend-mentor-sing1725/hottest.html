@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>CSS Grid- BBC News</title>
+  </head>
+  <body>
+    <style>
+      .news-article {
+        grid-column: 1 / -1;
+      }
+    </style>
+    <div class="container">
+    <header>
+        <div class="header-top"></div>
+        <div class="header-bottom">
+          <div class="header-title">
+            <h1>THE CANADA DAILY</h1>
+          </div>
+          <div class="hamburger-box show-mobile show-tablet hide-desktop">
+            <img src="images/hamburger.gif" onclick="opentopnav()" alt="" />
+          </div>
+        </div>
+        <div class="header-tab">
+          <div class="tabs">
+            <a href="index.html">Home</a href="#">
+            <a href="latest.html">Latest Stories</a href="#">
+            <a href="most-watched.html">Most read</a href="#">
+            <a href="hottest.html" class="hide-mobile hide-tablet show-desktop">Top stories</a href="#">
+            <a href="hottest.html" class="hide-mobile hide-tablet show-desktop">Hottest topics</a href="#">
+            <a href="index.html">World News</a href="#">
+
+
+          </div>
+        </div>
+      </header>
+
+      
+
+      <section class="news-article">
+        <h1 class="heading">
+          Hottest Topic
+        </h1>
+        <article class="content">
+          <div class="img-box">
+            <img src="images/a.jpg" alt="" />
+          </div>
+          <h2 class="title">
+            A new Netflix show, Indian Matchmaking, has created a huge buzz in
+            India, but many can't seem to agree if it is regressive and
+            cringe-worthy or honest and realistic, writes the BBC's Geeta Pandey
+            in Delhi.
+          </h2>
+          <p class="text">
+            The eight-part docuseries features elite Indian matchmaker Sima
+            Taparia as she goes about trying to find suitable matches for her
+            wealthy clients in India and the US.<br /><br />
+
+            "Matches are made in heaven and God has given me the job to make it
+            successful on Earth," says Ms Taparia who claims to be "Mumbai's top
+            matchmaker".<br /><br />
+
+            In the series, she's seen jet-setting around Delhi, Mumbai and
+            several American cities, meeting prospective brides and grooms to
+            find out what they are looking for in a life partner.<br /><br />
+
+            Since its release nearly two weeks back, Indian Matchmaking has
+            raced to the top of the charts for Netflix in India.<br /><br />
+
+            It has also become a massive social phenomenon. Hundreds of memes
+            and jokes have been shared on social media: some say they are loving
+            it, some say they are hating it, some say they are "hate-watching"
+            it, but it seems almost everyone is watching it.<br /><br />
+          </p>
+          <div class="other-info" style="margin-bottom: 50px;">
+            <time datetime="16-5-2024">10h</time>
+            <span>India</span>
+          </div>
+        </article>
+      </section>
+
+      <div class="subscribe">
+        <h1 class="heading">Subscribe</h1>
+        <div class="content">
+          <div class="form-group">
+            <label for="" aria-label="email">Email</label>
+            <input type="text" class="email" placeholder="EMAIL" />
+          </div>
+          <div class="form-group">
+            <label for="" aria-label="name">Name</label>
+            <input type="text" class="name" placeholder="NAME" />
+          </div>
+          <div class="form-group-check">
+            <input type="checkbox" class="checkbox" />
+            <label for="" aria-label="terms and conditions"
+              >By checking this box you accept our terms and conditions</label
+            >
+          </div>
+          <button class="submit">Subscribe</button>
+        </div>
+      </div>
+      <section class="find-us">
+        <div class="heading">You can find us on</div>
+        <div class="logos">
+          <img src="images/facebook.svg" alt="" />
+          <img src="images/instagram.svg" alt="" />
+          <img src="images/twitter.svg" alt="" />
+        </div>
+      </section>
+
+      <footer>
+        <div class="copyright">
+          &COPY; THE CANADA DAILY News2024 Registered Company
+        </div>
+        <div class="links">
+          <a href="#" class="link">Home</a>
+          <a href="#" class="link">Contact US</a>
+          <a href="#" class="link">Legal</a>
+          <a href="#" class="link">Most viewed News </a>
+          <a href="#" class="link">Latest news</a>
+        </div>
+      </footer>
+    </div>
+
+    <div id="opentopmenu">
+      <div class="closetopnav">
+        <img src="images/exit.svg" onclick="closetopnav()" alt="" />
+      </div>
+      <h1 class="heading">
+        THE CANADA DAILY
+      </h1>
+      <div class="navLinks">
+        <a href="#" class="navlink">Home</a>
+        <a href="#" class="navlink">Most viewed</a>
+        <a href="#" class="navlink">Latest</a>
+        <a href="#" class="navlink">Must watch</a>
+        <a href="#" class="navlink">Must Read</a>
+        <a href="#" class="navlink">Around the world</a>
+      </div>
+    </div>
+  </body>
+</html>
